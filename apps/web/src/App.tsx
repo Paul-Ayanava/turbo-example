@@ -1,15 +1,13 @@
 import React from "react";
 import { Link } from "ui";
+import {Header} from "global-nav";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1 className="header">
-          Web
-          <div className="Turborepo">Turborepo Example</div>
-        </h1>
+        <Header />
         <div>
           <Link className="App-link" href="https://turbo.build/repo">
             Turborepo Docs
